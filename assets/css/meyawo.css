@@ -5129,6 +5129,16 @@ input[type="button"].btn-block {
 .card-footer:last-child {
   border-radius: 0 0 calc(0 - 1px) calc(0 - 1px);
 }
+.link {
+  margin: 0 10px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #007bff; /* or any hover color */
+}
+
 
 .card-header-tabs {
   margin-right: -0.625rem;
